@@ -1,0 +1,38 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+// Bulma Utilities
+@import "~bulma/sass/utilities/_all";
+
+// Variables
+@import "variables";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+html {
+    overflow-y: auto;
+}
+.top-header {
+    background-color: #333;
+    height: 60px;
+    .nav-right {
+        .column {
+            height: 30px;
+            &:first-child {
+                border-right: 1px solid #fff;
+            }
+            .button {
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+.mt-10-p {
+    margin-top: 10%;
+}
+
+.mt-5-p {
+    margin-top: 5%;
+}

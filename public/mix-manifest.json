@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/login.js": "/js/login.js",
+    "/js/admin.js": "/js/admin.js",
+    "/js/user.js": "/js/user.js",
+    "/js/user_profile.js": "/js/user_profile.js",
+    "/js/vue_initialization.js": "/js/vue_initialization.js",
+    "/css/app.css": "/css/app.css"
+}
